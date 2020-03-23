@@ -20,7 +20,7 @@ gaps bottom 35
 # autostart
 exec --no-startup-id xrandr --dpi 135
 exec --no-startup-id systemctl start dhcpcd@wlp3s0
-exec --no-startup-id hsetroot -cover ~/wallnord.jpg
+exec --no-startup-id hsetroot -cover ~/NightCity2.jpg
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b --respect-prop-shadow
 exec --no-startup-id polybar mybar -r
